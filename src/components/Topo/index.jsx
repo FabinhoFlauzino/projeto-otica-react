@@ -9,9 +9,9 @@ export default function Topo () {
       <div className={`container ${styles.topo_content}`}>
         <Image src={Logo} alt='Logo' title='Logo' className={styles.img_logo}/>
         <nav className={styles.links}>
-          <Link href='#'>Produtos</Link>
-          <Link href='#'>Sobre</Link>
-          <Link href='#'>Contato</Link>
+          <Link href='#produtos'>Produtos</Link>
+          <Link href='#sobre'>Sobre</Link>
+          <Link href='#contato'>Contato</Link>
         </nav>
       </div>
     </header>

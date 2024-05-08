@@ -15,8 +15,13 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1024px;
   width: 100%;
+  padding: 100px 20px;
   margin: 0 auto;
 }
