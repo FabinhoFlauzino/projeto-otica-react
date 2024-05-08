@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
+import Capa from "@/components/Capa";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Topo />
-
+      <Capa />
     </>
   );
 }
