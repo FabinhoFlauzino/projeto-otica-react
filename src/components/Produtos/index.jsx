@@ -7,7 +7,7 @@ import Imagem4 from "../../../public/oculos04.png";
 
 export default function Produtos() {
   return (
-    <section className="container">
+    <section className="container" id="produtos">
       <div className={styles.section_produto}>
         <div>
           <h3>Nossos Produtos</h3>
