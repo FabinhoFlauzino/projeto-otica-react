@@ -4,6 +4,7 @@ import Topo from "@/components/Topo";
 import Capa from "@/components/Capa";
 import Produtos from "@/components/Produtos";
 import Sobre from "@/components/Sobre";
+import Contato from "@/components/Contato";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Capa />
         <Produtos />
         <Sobre />
+        <Contato />
       </main>
     </>
   );
