@@ -5,6 +5,7 @@ import Capa from "@/components/Capa";
 import Produtos from "@/components/Produtos";
 import Sobre from "@/components/Sobre";
 import Contato from "@/components/Contato";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Sobre />
         <Contato />
       </main>
+      <Footer/>
     </>
   );
 }
